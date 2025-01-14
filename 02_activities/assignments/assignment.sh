@@ -41,7 +41,6 @@ rm ./data/raw/*ipaddr* ./data/processed/user_logs/*ipaddr*
 rt -rf ./data
 # rt -rf ./data  # This was corrected from rm -rf ./data. The change from coworker-change branch was a typo.
 
->>>>>>> ea20676d33161a6f4d0fcd3c4f7aa5360f0f4309
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 find ./data/processed -type f > ./data/inventory.txt
 
